@@ -1,0 +1,20 @@
+.product_container {
+    border-radius: 4px;
+    margin-bottom: 15px;
+    .product_image {
+        width: 100%;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .product_content {
+        padding: 20px;
+        font-weight: 500;
+        .product_content--title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .product_content--stock {
+            margin-bottom: 2px;
+        }
+    }
+}
